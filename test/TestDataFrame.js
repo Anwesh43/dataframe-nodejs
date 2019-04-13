@@ -1,0 +1,6 @@
+const DataFrame = require('../lib/DataFrame')
+const {obj} = require('./common')
+const df = DataFrame.createForObjectRow(obj)
+df.show()
+df.head(1).show()
+df.tail(2).show()
